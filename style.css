@@ -144,7 +144,7 @@ ul li:hover {
 }
 .articulo1 div{    
     flex-direction: column;
-    margin: 5vw;
+    margin: 5vw 5vw 0vw 5vw;
     /* padding: 5vw */
 }
 h4 {
