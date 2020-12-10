@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .heroSection {
@@ -109,26 +110,26 @@ h3 {
     padding-left: 35%;
     padding-top: 2vw;
 }
-ul{
+.ulHero{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
 }
-ul li a{
+.ulHero li a{
     text-decoration: none;
     color:#571845;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 2vw;
 }
-ul li a:hover {
+.ulHero li a:hover {
     color: rgb(177, 37, 91);
     transition-duration: 0.5s;
 }
-ul li {
+.ulHero li {
     border-bottom: 4px inset #FFC300;
 }
-ul li:hover {
+.ulHero li:hover {
     border-bottom: 4px inset #FF5733;
     transition-duration: 0.8s;
 }
@@ -141,16 +142,17 @@ ul li:hover {
 .articulo1 {    
     display: flex;
     font-family: 'Titillium Web', sans-serif;
+    border-bottom: 1px inset #949494c0;
 }
 .articulo1 div{    
     flex-direction: column;
     margin: 5vw 5vw 0vw 5vw;
     /* padding: 5vw */
 }
-h4 {
+.hCuatro {
     color: #900C3E;
     font-size: 2.5vw;
-    border-bottom: 2px inset #FFC300;
+    border-bottom: 3px inset #FFC300;
 }
 h5 {
     color: #FF5733;
@@ -191,4 +193,34 @@ h5 {
 .contLeerMas a:hover {
     background-color: white;
     color: rgb(17, 17, 17);
+}
+
+/* ----------- FOOTER PRINCIPAL------------ */
+
+.footerPrincipal {
+    height: 20vw;
+    background-color: #571845;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hSeisFooter {
+    width: 100%;
+    color: white;
+    padding: 1vw;
+    font-family: 'Monserrat', sans-serif;
+    border-bottom: 1px inset #ffffff;
+}
+
+.footerPrincipal div p {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 2vw;
+    
+}
+.icon-facebook-squared, .icon-twitter-squared, .icon-instagram-1, .icon-linkedin-squared {
+    color: white;
+    font-size: 5vw;
+    margin: 2vw;
 }
