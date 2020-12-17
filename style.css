@@ -217,10 +217,80 @@ h5 {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     margin: 2vw;
-    
 }
 .icon-facebook-squared, .icon-twitter-squared, .icon-instagram-1, .icon-linkedin-squared {
     color: white;
     font-size: 5vw;
     margin: 2vw;
+}
+
+/* ------------- CONTACTANOS FORM -------------- */
+
+.articleContactanos{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #571845;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.form {
+    width: 40%;
+}
+.form h4 {
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.form p {
+    color: white;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+.form p {
+    padding: 1vw 0 1vw 0;
+}
+.ingresetexto {
+    width: 25vw;
+    height: 8vw;
+}
+.boton{
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid rgb(17, 17, 17);
+    width: 10vw;
+    padding: 1vw;
+    background-color: #900C3E;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    -webkit-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.75);
+}
+.boton:hover {
+    background-color: white;
+    color: rgb(17, 17, 17);
+}
+
+.asideContactanos {
+    height: 20vw;
+    background-color: #571845;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.asideContactanos div P{
+    color:white;
+}
+.hSeisAside {
+    font-size: 2vw;
 }
