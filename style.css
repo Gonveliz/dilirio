@@ -294,3 +294,43 @@ h5 {
 .hSeisAside {
     font-size: 2vw;
 }
+
+.ulCriticas {
+    background-color: #B1D3D2;
+    position: absolute;
+    width: 100%;
+}
+.contPostre {
+    display: flex;
+    justify-content: center;
+}
+.contPostre img {
+    width: 40%;
+    border-radius: 2vw;
+}
+.sectionCriticas {
+    background-image: url(img/imgPostre.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 1px inset #949494c0;
+
+}
+.criticaArt {
+    padding: 1vw;
+    display: flex;
+}
+.criticaArt img{
+    height: 40vw;
+    border-radius: 3vw;
+    border: 0.1vw solid white;
+    -webkit-box-shadow: 0px 0px 9px 8px rgba(43,43,43,1);
+    -moz-box-shadow: 0px 0px 9px 8px rgba(43,43,43,1);
+    box-shadow: 0px 0px 9px 8px rgba(43,43,43,1);
+}
+.contenidoArticulo {
+    padding: 1vw 1vw 1vw 1.3vw;
+}
+    
+.criticasCont {
+    padding: 1vw;
+}
